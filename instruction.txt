@@ -1,0 +1,7 @@
+Files:I/Common/docker-image-description/###dockerize/guvnor
+Build Image:
+   docker build -t bhits/guvnor:5.5.0 .
+push container
+   docker push  bhits/guvnor:5.5.0  
+Run Container
+   
