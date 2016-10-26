@@ -11,7 +11,7 @@ For more information about this image, please see the [GitHub repository](https:
 
 # What is Guvnor?
 
-Drools Guvnor is a web application with a UI that a business expert can use to manage (e.g., write, edit, store, test, version) the business rules. This image is  configured to use the Consent2Share fact model and the rules are consumed by the Consent2Share Document Segmentation System ([DSS](https://github.com/bhits/dss-api)).
+C2S uses [JBoss Drools Guvnor](https://docs.jboss.org/drools/release/5.5.0.Final/drools-guvnor-docs/html_single/) as a user interface and a versioned repository for business rules of its Business Rule Management System (BRMS). Guvnor also offers a guided editor while creating/editing rules, versioning, and Quality Assurance (QA) support for testing and validating the changes to the business rules. The [Document Segmentation Service (DSS) API](#document-segmentation-service-api) uses the [JBoss Drools Expert](https://docs.jboss.org/drools/release/5.4.0.Final/drools-expert-docs/html_single/) to run the business rules that are retrieved from the Guvnor instance with given arguments in a *Document Segmentation* request context. These rules and the execution result are used as *Tagging Directives* and they drive the *Document Tagging* phase of *Document Segmentation Service*.
 
 For more information and related downloads for Consent2Share, please visit [Consent2Share](https://bhits.github.io/consent2share/).
 
