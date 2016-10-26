@@ -29,18 +29,14 @@ Example to setup memory configuration:
 
 `docker run --name c2s-guvnor -e JAVA_OPTS="-Xms512m -Xmx700m -Xss1m" -d bhits/c2s-guvnor:5.5.0`
 
-### Supported Docker Versions
-
-This image is officially supported on Docker version 1.12.1.
-
-Support for older versions (down to 1.6) is provided on a best-effort basis.
-
-Please see the [Docker installation documentation](https://docs.docker.com/engine/installation/) for details on how to upgrade your Docker daemon.
-
 
 ## License
 
 View [license](https://github.com/bhits/dockerized-drools-guvnor) information for the software contained in this image.
+
+## Contact
+
+If you have any questions, comments, or concerns please see [Consent2Share](https://bhits.github.io/consent2share/) project site.
 
 ## Issues
 
