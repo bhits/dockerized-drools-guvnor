@@ -21,7 +21,7 @@ Copy `guvnor-5.5.0.Final.war` to `webapps` folder of Tomcat, rename as `guvnor.w
 
 ### Command to build docker image
 
-`docker build -t bhits/guvnor:5.5.0 .`
+`docker build -t bhits/guvnor:5.5.0`
 
 *NOTE: this docker image will actually contain the C2S Fact Model and initial business rules, so you won’t actually need to import the repository as mentioned in the “Import Consent2Share rules” section.*
 
