@@ -17,15 +17,15 @@ For more information and related downloads for Consent2Share, please visit [Cons
 
 # How to use This Image
 
-## Start a c2s-guvnor Instance
+## Start a guvnor Instance
 
-`docker run  --name c2s-guvnor -d bhits/c2s-guvnor:5.5.0`
+`docker run  --name guvnor -d bhits/guvnor:5.5.0`
 
 *NOTE: In order for this API to fully function as a microservice in the Consent2Share application, it is required to setup the dependency microservices and support level infrastructure. Please refer to the [Consent2Share Deployment Guide](https://github.com/bhits/consent2share/releases/download/2.0.0/c2s-deployment-guide.pdf) for instructions to setup the Consent2Share infrastructure.*
 
 ## Environment Variables
 
-When you start the c2s-guvnor image, you can edit the configuration of the c2s-guvnor instance by passing one or more environment variables on the command line. 
+When you start the guvnor image, you can edit the configuration of the guvnor instance by passing one or more environment variables on the command line. 
 
 ### JAVA_OPTS 
 
@@ -33,7 +33,7 @@ This environment variable is used to setup JVM argument, such as memory configur
 
 Example to setup memory configuration: 
 
-`docker run --name c2s-guvnor -e JAVA_OPTS="-Xms512m -Xmx700m -Xss1m" -d bhits/c2s-guvnor:5.5.0`
+`docker run --name guvnor -e JAVA_OPTS="-Xms512m -Xmx700m -Xss1m" -d bhits/guvnor:5.5.0`
 
 # Supported Docker Versions
 

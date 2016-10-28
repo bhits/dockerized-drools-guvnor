@@ -33,7 +33,7 @@ Copy `guvnor-5.5.0.Final.war` to `webapps` folder of Tomcat, rename as `guvnor.w
 
 ### Environment Variables
 
-When you start the c2s-guvnor image, you can edit the configuration of the guvnor instance by passing one or more environment variables on the command line. 
+When you start the guvnor image, you can edit the configuration of the guvnor instance by passing one or more environment variables on the command line. 
 
 #### JAVA_OPTS
 
